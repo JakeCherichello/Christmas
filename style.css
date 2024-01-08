@@ -1,9 +1,9 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: #586c92;
 }
 .mycanvas{
-    background-color: #586c92;
     height: 450px;
     width: 400px;
     position: absolute;
@@ -12,11 +12,19 @@ body{
     right:0;
     top:0;
     bottom:0;
+    transform: rotate(10deg);
+    animation:nod 4s infinite;
+
+}
+@keyframes nod{
+    50%{
+        transform: rotate(-10deg);
+    }
 }
 .santa{
     position: relative;
-    top:165px;
-    Left:95px;
+top:165px;
+Left:95px;
 }
 .beard{
     background-color:white;
@@ -29,9 +37,28 @@ body{
 .face{
     background-color: #fcd9c3;
     height: 60px;
-    width: 155px;
+    width:155px;
     position: relative;
-bottom: 180px;
-left:31px;
-border-radius: 35px;
+    bottom: 180px;
+    left:31px;
+    border-radius: 35px;
+}
+
+.hat{
+    background-color:#f14a68;
+    height:150px;
+    width:150px;
+    position: relative;
+    bottom:420px;
+    left:35px;
+    border-radius: 0 200px 0 0;
+}
+.bottom{
+    background-color:white;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    position: relative;
+    top: 140px;
+    right: 25px;
 }
