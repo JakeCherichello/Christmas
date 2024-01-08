@@ -89,3 +89,23 @@ Left:95px;
     bottom:3px;
     left: 92px;
 }
+
+.nose{
+    background-color: #fbd1b6;
+    height: 30px;
+    width: 35px;
+    border-radius: 50%;
+    position: relative;
+    left: 60px;
+}
+
+.mouth{
+    background-color: #262626;
+    height: 20px;
+    width: 40px;
+    border-radius: 0 0 20px 20px;
+    position: relative;
+    top: 3px;
+    left: 57px;
+    opacity: 0.8;
+}
